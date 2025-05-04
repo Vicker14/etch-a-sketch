@@ -1,0 +1,37 @@
+body {
+    background-color: #393E46;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+
+    width: 700px;
+    height: 800px;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: #e1dFdC;
+    border-radius: 50px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 650;
+
+    margin: auto;
+}
+
+#grid {
+    width: 600px;
+    height: 600px;
+
+    background-color: white;
+    margin-bottom: auto;
+}
