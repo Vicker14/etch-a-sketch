@@ -24,16 +24,20 @@ body {
 .title {
     font-size: 30px;
     font-weight: 650;
-
     margin: auto;
 }
 
 .subtitle {
     display: flex;
-    width: 400px;
+    width: 600px;
 
     margin-bottom: auto;
     justify-content:space-between;
+}
+
+#size-selector {
+    display: flex;
+    align-items: center;
 }
 
 .button {
@@ -52,7 +56,7 @@ body {
     height: 600px;
 
     background-color: #d1cfcC;
-    margin-bottom: auto;
+    margin-bottom: 50px;
 }
 
 .line-container {
