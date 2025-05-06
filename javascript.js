@@ -1,3 +1,4 @@
+//LOGIC FOR GRID-BOX
 const gridBox = document.querySelector("#grid-box");
 
 let size = 16;
@@ -25,3 +26,35 @@ squareList.forEach((square) => {
         })
     }
 )
+
+// LOGIC FOR CLEANING BUTTON
+
+function clearSquares(squareList){
+    squareList.forEach((square) => {
+        square.style.backgroundColor = "";
+    });
+}
+
+//  Cleans the grid
+const cleanButton = document.querySelector("#clean-button");
+
+cleanButton.addEventListener("click", () => {
+    clearSquares(squareList);
+});
+
+// Interactions with the button
+const buttonHover = document.querySelectorAll(".button");
+
+buttonHover.forEach(
+    (button) => {
+        button.addEventListener("mouseover", () => {
+            button.style.backgroundColor = "#c1bfbC"
+        })
+        button.addEventListener("mouseout", () => {
+            button.style.backgroundColor = "#d1cfcC"
+        })
+        button.addEventListener("mouseover", () => {
+            button.style.cursor = "pointer";
+        });
+    }
+);

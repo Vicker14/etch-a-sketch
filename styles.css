@@ -28,6 +28,22 @@ body {
     margin: auto;
 }
 
+.subtitle {
+    display: flex;
+    width: 400px;
+
+    margin-bottom: auto;
+    justify-content:space-between;
+}
+
+.button {
+    border-style: none;
+    background-color: #d1cfcC;
+
+    padding: 1.5em;
+    border-radius: 1.5em;
+}
+
 #grid-box {
     display: flex;
     flex-direction: column;
@@ -35,9 +51,8 @@ body {
     width: 600px;
     height: 600px;
 
-    background-color: white;
+    background-color: #d1cfcC;
     margin-bottom: auto;
-    border-collapse: collapse;
 }
 
 .line-container {
@@ -50,5 +65,4 @@ body {
     width: 100%;
 
     box-sizing: content-box;
-    border: 1px solid #393E46;
 }
